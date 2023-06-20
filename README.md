@@ -50,5 +50,18 @@ http://host.robots.ox.ac.uk/pascal/VOC/
 ### Third problem
 3-D reconstruction of our own photos with NeRF
 
+## Pre-processing
+Use COLMAP and LLFF pre-process the datasets.
+
+
+COLMAP: You can download it in https://demuc.de/colmap/
+
+
+LLFF: You can download it in https://gitcode.net/mirrors/fyusion/llff?utm_source=csdn_github_accelerator
+
+## Train model
+
+
+
 #### Source codes
 Source codes and commands for task 2 are available in `task2/{Model name}`.
