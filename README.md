@@ -1,5 +1,5 @@
-# Neural-network-Midterm
-<h1 align="center"> Neural-network-Midterm</h1>
+# Neural-network-final-term
+<h1 align="center"> Neural-network-finalterm</h1>
 
 GitHub: [https://github.com/Shixu-max/Neural-network-Midtern](https://github.com/Shixu-max/Neural-network-final-term)
 
