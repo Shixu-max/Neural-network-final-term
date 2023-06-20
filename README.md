@@ -60,8 +60,19 @@ COLMAP: You can download it in https://demuc.de/colmap/
 LLFF: You can download it in https://gitcode.net/mirrors/fyusion/llff?utm_source=csdn_github_accelerator
 
 ## Train model
+Use git bush or anaconda prompt, run: python run_nerf.py --config configs/bottle.txt or toy.txt
 
+
+NeRF-PyTorch: You can download the nerf-pytorch model in https://gitcode.net/mirrors/yenchenlin/nerf-pytorch?utm_source=csdn_github_accelerator
+
+
+Train results can be found in task 3/toy_test and bottle_test.
+
+### Packages
+Numpy, PyTorch with cuda, etc. in requirement.txt of LLFF and NeRF-PyTorch.
 
 
 #### Source codes
 Source codes and commands for task 2 are available in `task2/{Model name}`.
+
+
