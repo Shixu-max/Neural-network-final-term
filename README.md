@@ -1,7 +1,7 @@
 # Neural-network-final-term
 <h1 align="center"> Neural-network-finalterm</h1>
 
-GitHub: [https://github.com/Shixu-max/Neural-network-Midtern](https://github.com/Shixu-max/Neural-network-final-term)
+GitHub: [[https://github.com/Shixu-max/Neural-network-Midtern](https://github.com/Shixu-max/Neural-network-final-term)]
 
 
 
@@ -9,9 +9,7 @@ GitHub: [https://github.com/Shixu-max/Neural-network-Midtern](https://github.com
 - [Target](#target)
 - [First problem](#first-problem)
   * [Dataset](#dataset)
-  * [Data augmentation](#augmentor)
-  * [Train models](#train_models)
-  * [Compare](#compare)
+  * [Source codes](#codes1)
 - [Second problem](#second-problem)
   * [Dataset](#dataset)
   * [Train models](#train-models)
@@ -25,19 +23,22 @@ GitHub: [https://github.com/Shixu-max/Neural-network-Midtern](https://github.com
 
 
 ## Target
-1 Train and test on CIFAR-100 using CNN network models (ResNet) as baselines; Compare the performance of Cutmix, Cutout, Mixup, and Baseline methods in CIFAR-100 image classification tasks; Visualize three training samples through cutmix, cutout, and mixup, and show a total of 9 images.
+1 Pretrain ResNet-18 with SimCLR, a self-supervised learning strategy on STL10 dataset; Validate effectiveness of self-supervised learning with classification performance on CIFAR-100 (linear classification protocol & supervised learning with and w/o SimCLR pretrained) 
 
 2 Train and test the target detection models Faster R-CNN and FCOS on the VOC dataset; Visualize the proposal box of the first stage of Faster R-CNN on four test images; Visualize the detection results (category labels, scores, boundingbox) of three images that are not in the VOC dataset, but contain category objects in the VOC, and compare them. Show a total of six images;
+
 3 Use the Neural Radiance Fields (NeRF) model to conduct 3-D reconstruction of our own photos.
 ### First problem
-Classification task with different data augmentation methods on CIFAR-100 dataset.
+Comparisons of classification performance with & w/o self-supervised learning.
+
 #### Dataset
-CIFAR-100
 
-https://www.cs.toronto.edu/~kriz/cifar.html
+- STL-10 https://cs.stanford.edu/~acoates/stl10/ 
 
+- CIFAR-100 https://www.cs.toronto.edu/~kriz/cifar.html
 
 #### Source codes
+
 Source codes and more detials for task 1 can be accessed in `task1`.
 
 
