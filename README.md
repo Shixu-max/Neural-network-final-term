@@ -39,15 +39,20 @@ Comparisons of classification performance with & w/o self-supervised learning.
 
 #### Source codes
 
-Source codes and more detials for task 1 can be accessed in `task1`.
+Source codes and more details for task 1 can be accessed in `task1`.
 
 
 
 ### Second problem
-Object detection with Faster R-CNN and FCOS
+Use the vision transformer to train on the CIFAR-100 dataset from scratch. The vision transformer is handcrafted.
 #### Dataset
-VOC 2007 
-http://host.robots.ox.ac.uk/pascal/VOC/
+In this experiment, we choose the CIFAR-100 dataset to experiment on. It contains 50,000 natural images in the training dataset while 10,000 for testing. Each of them is of size 32 x 32, categorized in one of the 100 classes.
+
+https://www.cs.toronto.edu/~kriz/cifar.html
+
+#### Source codes
+
+Source codes and more details for task 1 can be accessed in `task2`.
 ### Third problem
 3-D reconstruction of our own photos with NeRF
 
