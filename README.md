@@ -50,7 +50,7 @@ https://www.cs.toronto.edu/~kriz/cifar.html
 
 #### Source codes
 
-Source codes and more details for task 1 can be accessed in `task2`.
+Source codes and more details for task 2 can be accessed in `task2`.
 ### Third problem
 3-D reconstruction of our own photos with NeRF
 
@@ -77,6 +77,10 @@ Numpy, PyTorch with cuda, etc. in requirement.txt of LLFF and NeRF-PyTorch.
 
 
 #### Source codes
-Source codes and commands for task 2 are available in `task2/{Model name}`.
+Source codes and commands for task 3 are available in 
+
+https://gitcode.net/mirrors/fyusion/llff?utm_source=csdn_github_accelerator
+
+https://gitcode.net/mirrors/yenchenlin/nerf-pytorch?utm_source=csdn_github_accelerator
 
 
